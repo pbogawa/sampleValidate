@@ -14,7 +14,7 @@ import com.example.demo.validate.NameValidator;
 @Retention(RetentionPolicy.RUNTIME)
 @Constraint(validatedBy = NameValidator.class)
 public @interface ValidateName {
-    String message() default "Invalid name: must start with uppercase and be at least 3 characters long";
+    String message() default "Invalid name: must start with uppercase";
     Class<?>[] groups() default {};
     Class<? extends Payload>[] payload() default {};
 }
