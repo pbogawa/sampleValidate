@@ -11,6 +11,6 @@ public class NameValidator implements ConstraintValidator<ValidateName, String> 
 
     @Override
     public boolean isValid(String name, ConstraintValidatorContext context) {
-        return name != null && name.matches("^[A-Z][a-zA-Z]{2,}$");
+        return  name.matches("^[A-Z]");
     }
 }
