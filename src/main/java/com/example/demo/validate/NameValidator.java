@@ -3,7 +3,7 @@ package com.example.demo.validate;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 
-import com.example.demo.anotation.ValidateName;
+import com.example.demo.annotation.ValidateName;
 
 public class NameValidator implements ConstraintValidator<ValidateName, String> {
     @Override

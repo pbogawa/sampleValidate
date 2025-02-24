@@ -1,6 +1,6 @@
 package com.example.demo.entity;
 
-import com.example.demo.anotation.ValidateName;
+import com.example.demo.annotation.ValidateName;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
